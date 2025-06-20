@@ -1,0 +1,12 @@
+D:\UserService\UserService\UserService.Domain\bin\Debug\net9.0\UserService.Domain.deps.json
+D:\UserService\UserService\UserService.Domain\bin\Debug\net9.0\UserService.Domain.dll
+D:\UserService\UserService\UserService.Domain\bin\Debug\net9.0\UserService.Domain.pdb
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.AssemblyInfoInputs.cache
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.AssemblyInfo.cs
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.csproj.CoreCompileInputs.cache
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.sourcelink.json
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.dll
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\refint\UserService.Domain.dll
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\UserService.Domain.pdb
+D:\UserService\UserService\UserService.Domain\obj\Debug\net9.0\ref\UserService.Domain.dll
