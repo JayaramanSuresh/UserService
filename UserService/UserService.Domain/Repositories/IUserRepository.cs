@@ -6,6 +6,8 @@ namespace UserService.Domain.Repositories
     {
         Task<User?> GetByEmailAsync(string email, CancellationToken ct = default);
         Task<User?> GetByIdAsync(Guid id, CancellationToken ct = default);
+        Task<List<User>> GetAllAsync(CancellationToken ct);
+        Task<List<User>> GetPagedAsync(int pageNumber, int pageSize, CancellationToken ct);
         Task AddAsync(User user, CancellationToken ct = default);
         Task SaveChangesAsync(CancellationToken ct = default);
     }

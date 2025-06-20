@@ -19,6 +19,21 @@ namespace UserService.Infrastructure.Repositories
         public async Task<User?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
             await _db.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id, ct);
 
+        public async Task<List<User>> GetAllAsync(CancellationToken ct)
+        {
+            return await _db.Users.AsNoTracking().ToListAsync(ct);
+        }
+
+        public async Task<List<User>> GetPagedAsync(int pageNumber, int pageSize, CancellationToken ct)
+        {
+            return await _db.Users
+                .AsNoTracking()
+                .OrderBy(u => u.Email) // or any sorting logic
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync(ct);
+        }
+
         public async Task SaveChangesAsync(CancellationToken ct = default) =>
             await _db.SaveChangesAsync(ct);
     }
